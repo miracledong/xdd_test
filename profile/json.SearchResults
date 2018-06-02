@@ -1,0 +1,15 @@
+---- ntohs Matches (15 in 5 files) ----
+Analysis_pack.c:        data_len = ntohs(iph->tot_len)-(iph->ihl)*4-sizeof(struct udphdr);
+Analysis_pack.c:	//	if (ntohs(tmpethhdr->h_proto) == 0x8100) //VLAN
+Analysis_pack.c:		data_len = ntohs(iph->tot_len)-(iph->ihl)*4-sizeof(struct udphdr);
+Analysis_pack.c:		if(ntohs(tcph->dest) == 80 && ntohs(tcph->dest) == 443)
+Analysis_pack.c:				make_url_post_data(urldata,&(ip_info->passenger_info),iph->daddr,ntohs(tcph->dest));
+Analysis_pack.c:			make_url_post_data(urldata,&(ip_info->passenger_info),iph->daddr,ntohs(tcph->dest));
+Analysis_pack.c:						make_url_post_data(urldata,&(ip_info->passenger_info),iph->daddr,ntohs(tcp->dest));
+Epoll_server.c:	ethernet_type = ntohs(ethernet_protocol->ether_type);//获得以太网的类型
+Recv_package.c:	ethernet_type = ntohs(ethernet_protocol->ether_type);//获得以太网的类型
+Session.c:            int Sport = ntohs(srcport);
+Session.c:            int Dport = ntohs(dstport);
+Session.c:            int Sport = ntohs(srcport);
+Session.c:            int Dport = ntohs(dstport);
+Sniffer_send_redirect.c:	if( ntohs(etherhdr->ether_type) == ETHERTYPE_VLAN){//for vlan
