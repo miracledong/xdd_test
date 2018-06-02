@@ -3,3 +3,4 @@
 ## 二级标题
 
 make && make install 
+add a new func
