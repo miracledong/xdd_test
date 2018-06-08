@@ -4,3 +4,6 @@
 
 make && make install 
 add a new func
+
+
+测试代码冲突
